@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Anek Devanagari", sans-serif;
+}
+
+/* Header styling */
+
+header {
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: aliceblue;
+}
+header h2 {
+  color: gray;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5em;
+}
+
+.menu {
+  display: none;
+}
+.menu {
+  display: none;
+}
+
+.icon-menu {
+  display: none;
+}
+.icon-menu i {
+  color: gray;
+}
+
+.menu li {
+  list-style: none;
+  color: gray;
+}
+.hamburger i {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: gray;
+}
+
+/* Hero page Styling */
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("https://images.pexels.com/photos/7195537/pexels-photo-7195537.jpeg?auto=compress&cs=tinysrgb&w=1200");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding: 2rem;
+}
+
+.hero_container {
+}
+.headline-text {
+  max-width: 600px;
+  font-weight: 300;
+  font-size: 5rem;
+  line-height: 4.5rem;
+  color: white;
+}
+
+.sub-headline-text {
+  max-width: 500px;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.hero button {
+  display: flex;
+  gap: 0.3rem;
+  padding: 1rem;
+  border-radius: 50px;
+  border: 0;
+}
+
+.hero button i {
+  transform: rotate(-60deg);
+}
+
+.hero_container {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 614px) {
+  /* Header styling */
+
+  header {
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-family: sans-serif;
+  }
+
+  .icon-menu {
+    display: flex;
+    gap: 1rem;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  /* Shopping Card styling */
+  .shopping-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .shopping-card img {
+    border-radius: 10px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
